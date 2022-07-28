@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 103.0.5060.134,Tests to Validate and Certify Login Features,,2022-07-28 15:36:22,2022-07-28 15:36:41,18.941s,PASSED
+,,,,,,,
+Test Cases/Test_ValidLogin,Chrome 103.0.5060.134,"Entries: Username and Password
+State: Valid Credentials
+Expected Result: Should let me pass to Dashboard and see Welcome Message.","Smoke, Regression",2022-07-28 15:36:22,2022-07-28 15:36:31,8.586s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",Chrome 103.0.5060.134,,,2022-07-28 15:36:23,2022-07-28 15:36:26,3.299s,PASSED
+maximizeWindow(),Chrome 103.0.5060.134,,,2022-07-28 15:36:26,2022-07-28 15:36:26,0.153s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/textField_Username""), Username)",Chrome 103.0.5060.134,,,2022-07-28 15:36:26,2022-07-28 15:36:27,0.781s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/textField_Password""), Password)",Chrome 103.0.5060.134,,,2022-07-28 15:36:27,2022-07-28 15:36:27,0.423s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/button_Login""))",Chrome 103.0.5060.134,,,2022-07-28 15:36:27,2022-07-28 15:36:30,2.692s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Login/message_Welcome""))",Chrome 103.0.5060.134,,,2022-07-28 15:36:30,2022-07-28 15:36:31,0.568s,PASSED
+"takeScreenshot(""Test Evidences/Successful_Login.jpg"")",Chrome 103.0.5060.134,,,2022-07-28 15:36:31,2022-07-28 15:36:31,0.414s,PASSED
+,,,,,,,
+Test Cases/Test_CheckAdminInfo,Chrome 103.0.5060.134,,,2022-07-28 15:36:31,2022-07-28 15:36:41,10.082s,PASSED
+"callTestCase(findTestCase(""Test_ValidLogin""), [""Username"":""Admin"", ""Password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 15:36:31,2022-07-28 15:36:39,7.934s,PASSED
+"click(findTestObject(""Object Repository/Page_My-Info/button_My-Info""))",Chrome 103.0.5060.134,,,2022-07-28 15:36:39,2022-07-28 15:36:40,1.096s,PASSED
+"scrollToElement(findTestObject(""Page_My-Info/button_Report-To""), 5)",Chrome 103.0.5060.134,,,2022-07-28 15:36:40,2022-07-28 15:36:41,0.453s,PASSED
+"takeScreenshot(""Test Evidences/Successful_Report.jpg"")",Chrome 103.0.5060.134,,,2022-07-28 15:36:41,2022-07-28 15:36:41,0.389s,PASSED

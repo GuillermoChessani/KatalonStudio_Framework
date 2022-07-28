@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="18.941" tests="2" failures="0" errors="0">
+   <testsuite name="Login" tests="2" failures="0" errors="0" time="18.941" skipped="0" timestamp="2022-07-28 15:36:22" hostname="memo_ - LAPTOP-8G2EG4D2" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\memo_\\Katalon Studio\\KatalonStudio_Framework\\Reports\\20220728_153617\\Login\\20220728_153618"/>
+         <property name="logFiles" value="C:\\Users\\memo_\\Katalon Studio\\KatalonStudio_Framework\\Reports\\20220728_153617\\Login\\20220728_153618\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\memo_\\Katalon Studio\\KatalonStudio_Framework\\Reports\\20220728_153617\\Login\\20220728_153618\\Test Evidences/Successful_Login.jpg, C:\\Users\\memo_\\Katalon Studio\\KatalonStudio_Framework\\Reports\\20220728_153617\\Login\\20220728_153618\\Test Evidences/Successful_Login.jpg, C:\\Users\\memo_\\Katalon Studio\\KatalonStudio_Framework\\Reports\\20220728_153617\\Login\\20220728_153618\\Test Evidences/Successful_Report.jpg"/>
+         <property name="hostName" value="memo_ - LAPTOP-8G2EG4D2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 103.0.5060.134"/>
+         <property name="hostAddress" value="192.168.0.9"/>
+         <property name="sessionId" value="395184959693819d31ed905e2d9ab957"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test_ValidLogin" time="8.586" classname="Test Cases/Test_ValidLogin" status="PASSED">
+         <system-out><![CDATA[2022-07-28 15:36:22 - [TEST_CASE][PASSED] - Test Cases/Test_ValidLogin: Test Cases/Test_ValidLogin
+
+2022-07-28 15:36:23 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2022-07-28 15:36:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-28 15:36:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-28 15:36:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2022-07-28 15:36:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-28 15:36:26 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-28 15:36:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/textField_Username"), Username): Text 'Admin' is set on object 'Object Repository/Page_Login/textField_Username'
+
+2022-07-28 15:36:27 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_Login/textField_Username'
+
+2022-07-28 15:36:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/textField_Password"), Password): Text ****** has been set on object 'Object Repository/Page_Login/textField_Password'
+
+2022-07-28 15:36:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/textField_Password'
+
+2022-07-28 15:36:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2022-07-28 15:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2022-07-28 15:36:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Login/message_Welcome")): Object 'Object Repository/Page_Login/message_Welcome' is visible
+
+2022-07-28 15:36:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/message_Welcome' is visible
+
+2022-07-28 15:36:31 - [TEST_STEP][PASSED] - takeScreenshot("Test Evidences/Successful_Login.jpg"): Taking screenshot successfully
+
+2022-07-28 15:36:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\memo_\\Katalon Studio\\KatalonStudio_Framework\\Reports\\20220728_153617\\Login\\20220728_153618\\Test Evidences/Successful_Login.jpg]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_CheckAdminInfo" time="10.082" classname="Test Cases/Test_CheckAdminInfo" status="PASSED">
+         <system-out><![CDATA[2022-07-28 15:36:31 - [TEST_CASE][PASSED] - Test Cases/Test_CheckAdminInfo: Test Cases/Test_CheckAdminInfo
+
+2022-07-28 15:36:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test_ValidLogin"), ["Username":"Admin", "Password":"hUKwJTbofgPU9eVlw/CnDQ=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test_ValidLogin' successfully
+
+2022-07-28 15:36:31 - [TEST_CASE][PASSED] - Test Cases/Test_ValidLogin: Test Cases/Test_ValidLogin
+
+2022-07-28 15:36:31 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2022-07-28 15:36:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-28 15:36:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-28 15:36:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-28 15:36:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2022-07-28 15:36:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-28 15:36:34 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-28 15:36:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/textField_Username"), Username): Text 'Admin' is set on object 'Object Repository/Page_Login/textField_Username'
+
+2022-07-28 15:36:35 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_Login/textField_Username'
+
+2022-07-28 15:36:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/textField_Password"), Password): Text ****** has been set on object 'Object Repository/Page_Login/textField_Password'
+
+2022-07-28 15:36:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/textField_Password'
+
+2022-07-28 15:36:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2022-07-28 15:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2022-07-28 15:36:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Login/message_Welcome")): Object 'Object Repository/Page_Login/message_Welcome' is visible
+
+2022-07-28 15:36:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/message_Welcome' is visible
+
+2022-07-28 15:36:39 - [TEST_STEP][PASSED] - takeScreenshot("Test Evidences/Successful_Login.jpg"): Taking screenshot successfully
+
+2022-07-28 15:36:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\memo_\\Katalon Studio\\KatalonStudio_Framework\\Reports\\20220728_153617\\Login\\20220728_153618\\Test Evidences/Successful_Login.jpg]]
+
+2022-07-28 15:36:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test_ValidLogin' successfully
+
+2022-07-28 15:36:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My-Info/button_My-Info")): Object: 'Object Repository/Page_My-Info/button_My-Info' is clicked on
+
+2022-07-28 15:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My-Info/button_My-Info' is clicked on
+
+2022-07-28 15:36:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_My-Info/button_Report-To"), 5): Scroll to object 'Object Repository/Page_My-Info/button_Report-To' successfully
+
+2022-07-28 15:36:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_My-Info/button_Report-To' successfully
+
+2022-07-28 15:36:41 - [TEST_STEP][PASSED] - takeScreenshot("Test Evidences/Successful_Report.jpg"): Taking screenshot successfully
+
+2022-07-28 15:36:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\memo_\\Katalon Studio\\KatalonStudio_Framework\\Reports\\20220728_153617\\Login\\20220728_153618\\Test Evidences/Successful_Report.jpg]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-28 15:36:22 - [TEST_SUITE][PASSED] - Login: Test Cases/Test_CheckAdminInfo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
